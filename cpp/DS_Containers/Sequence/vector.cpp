@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void show(vector<int> v, string s = "") {
+void show(vector<int> &v, string s = "") {
     cout << s << ": ";
     //can use for(auto ele : v)
     for(vector<int>::iterator it = v.begin(); it != v.end(); it++) {
